@@ -46,10 +46,57 @@ No momento atual, o valor de uma vida estatística está por volta de R$3,294 mi
 Há um viés de publicação nos periódicos profissionais, a tendência de se publicarem resultados positivos com muito mais frequência que os negativos.
 > Kay Dickersin e Drummond Rennie: "o resultado de não se saber quem fez o quê (testes clínicos) é a perda e distorção da evidência, desperdício e duplicação de testes, incapacidade das agências de financiamento de se planejarem, e um sistema caótico do qual apenas certos patrocinadores podem se beneficiar e que é, invariavelmente, contra o interesse daqueles que se ofereceram para participar do teste e dos pacientes em geral."
 
+### Análise
+A análise deve começar com gráficos e exploração dos dados: bom senso e atenção redobrada a métodos estatísticos sólidos.
 
+### Conclusão
+*Significância estatística*: resultado de ocorrência muito improvável por puro acaso.
+> Exemplo: nascimento de 98 meninas em 100 partos realizados é estatisticamente significativo porque esse é um evento tão extremo que não é provável de ser resultado de acaso aleatório.
 
+- Significância Estatística x Significância Prática
+Teste de perda de peso (Atkins): 40 participantes perderam 2,1kg após um ano. 
+> A perda média de 2,1kg/ano é estatisticamente significativa, ou seja, com base em critérios estatísticos a dieta parece ser eficaz. </br>
+> Usando o bom senso, perder 2,1kg/ano é algo insignificante para quem deseja perder peso, ou seja, não tem significância prática.
 
+#### Detecção de dados fabricados
+Através da violação da lei de Benford: para muitas coleções de dados, os dígitos líderes não são uniformemente distribuídos. 
+> Dígitos líderes: 1, 2, 3, ..., 9 ocorrem a taxas de 30%, 18%, 12%, 10%, 8%, 7%, 6%, 5% e 5%.
 
+- Armadilhas:
+  - Conclusões enganadoras: ao se chegar a conclusões após análise estatística, devem ser feitas afirmações claras. Evitar, cuidadosamente, fazer afirmações que não se justifiquem pela análise estatística.
+
+    *Correlação*: associação entre duas variáveis. </br>
+    *Causalidade*: afirmativas sobre causalidade só podem ser justificadas por evidências físicas, não por análise estatística.
+    > Correlação não implica causação.
+
+  - Resultados informados: pergunte às pessoas quanto elas pesam e, muito provavelmente, você receberá as medidas *desejadas*, não as medidas reais. 
+  > Medidas precisam ser coletadas através de um instrumento que faça essa medição.
+  
+  - Pequenas amostras: amostras muito pequenas não geram conclusões confiáveis.
+  - Questões direcionadas: intencionalmente fraseadas a fim de induzir a uma resposta desejada.
+  - Ordem das Questões: 
+  > Exemplo: Você diria que o tráfego contribui mais ou menos do que a indústria para a poluição do ar? (45% dizem o tráfego, 27% a indústria)
+  Você diria que a indústria contribui mais ou menos do que o tráfego para a poluição do ar? (24% dizem o tráfego, 57% a indústria)
+  - Não resposta: alguém se recusa a responder a uma questão de pesquisa ou não está disponível.
+  - Dados ausentes: o Censo americano tem problemas de ausências, na maior parte, com pessoas sem casa (onde encontrá-las, afinal?) ou de baixa renda.
+  - Números precisos: não são números exatos. O número preciso é uma estimativa.
+  - Porcentagens: enganosas ou não muito claras.
+
+Sugestão de leitura: 
+- How to lie with Statistics, de Darrel Huff
+- The Figure Finaglers, de Robert Reichards
+- Tainted Truth, de Cynthia Crossen
+      
+### Pensamento Estatístico
+Pode ser visto como a habilidade de enxergar o quadro geral, considerar fatores relevantes, como contexto, fontes de dados e método de amostragem, e de formular conclusões e identificar implicações práticas. Envolve pensamento crítico e a habilidade de dar sentido aos resultados. Deve envolver a determinação da significância estatística e da significância prática dos resultados.
+      
+      
+      
+      
+      
+      
+      
+      
 
 
 

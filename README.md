@@ -1,4 +1,4 @@
-# Estatistica
+# Estatística
 Estudos relacionados a Estatística.
 
 ## Introdução

@@ -2,101 +2,78 @@
 Estudos relacionados a Estatística.
 
 ## Introdução
-Objetivo da Estatística: aprender sobre um grande grupo pelo exame dos dados de alguns de seus membros.
+A Estatística é um instrumento auxiliar nas tomadas de decisão diante de incertezas, justificando cientificamente tais decisões. </br>
+Karl Popper: Conjecturas e Refutações
+> **Conjectura** : levantar hipóteses </br>
+> **Refutações** : negar a hipótese </br>
+> O trabalho científico consiste no esforço de refutação das hipóteses. A conjectura que resiste a todas as tentativas de refutação, esta esta apta a ser tornar um conhecimento científico. </br>
 
-### Termos importantes
-  - *Dados*: coleções de observações, como medidas, gêneros ou respostas de pesquisas;
-  - *Amostra*: é uma subcoleção de membros selecionados de uma população;
-  - *População*: é a coleção completa de todas as medidas ou dados a serem considerados;
-  - *Censo*: é a coleção dos dados obtidos de todos os membros da população;
-  - *Estatística*: é a ciência do planejamento de estudos e experimentos, da obtenção de dados e, em seguida, de sua organização, resumo, apresentação, análise e interpretação e, então, estabelecimento de conclusões com base nesses dados.
+David Hume: a ciência da experimentação é uma ciência baseada na probabilidade. 
+> O resultado científico é baseado no raciocínio indutivo e, portanto, é uma crença baseada em todas as tentativas de refutação que foram frustradas, portanto baseada na probabilidade. É limitado e não é capaz de alcançar a verdade das coisas.
 
-### Visão geral de um estudo estatístico
-1. Preparação: consideração do contexto, da fonte dos dados e do método de amostragem;
-2. Análise: construção de gráficos, exploração dos dados e realização dos cálculos exigidos pelo método estatístico em uso;
-3. Conclusão: verificação da significância estatística e prática.
+Kant: o espírito trabalha sempre com conjecturas, uma criatividade imanente do espírito.
+> Uma conjectura deve ser refutável, uma hipótese só pode ser considerada científica se puder ser refutada.
 
-- Preparação
-  - Contexto:
-    - O que os dados significam?
-    - Qual é o objetivo do estudo?
-  - Fonte:
-    - Há pressão para a obtenção dos resultados para que sejam favoráveis à fonte?
-  - Método de Amostragem:
-    - Dados foram coletados de maneira viesada?
-- Análise
-  - Faça o gráfico dos dados
-  - Exploração 
-    - há valores atípicos?
-    - Quais estatísticas importantes (média, desvio-padrão etc) resumem os dados?
-    - há dados faltantes?
-    - muitos sujeitos escolhidos se recusaram a responder?
-- Aplicação de métodos estatísticos:
-  - Significância Estatística
-    - Os resultados têm significância estatística?
-    - Os resultados têm significância prática?
-    
-> Obs: é uma má prática o uso de amostras de *respostas voluntárias* (ou *autosseleção*: os respondentes decidem, por eles mesmos, se serão incluídos ou não), mesmo que seu uso seja comum. Não devemos tirar conclusões sobre uma população com base em tais amostras viesadas, podemos tirar conclusões apenas em relação ao grupo específico que escolheu voluntariamente participar.
+Desse modo, a Estatística deve desempenhar seu papel nas diversas fases de uma pesquisa científica, pois é o braço da ciência capaz de obter conclusões a partir de dados:
+- garante que os dados coletados para testar as hipóteses sejam validados
+- verifica (através de métodos estatísticos) se eventuais discrepâncias entre os resultados previstos e os dados coletados são suficientes para justificar uma modificação nas hipóteses.
 
-#### Valor de uma vida estatística (VVE)
-No momento atual, o valor de uma vida estatística está por volta de R$3,294 milhões pelo modelo de efeitos fixos.
-> O preço de uma reforma em uma rodovia para melhorar a segurança de motoristas e passageiros, com toda a certeza, na análise de custo-benefício da obra, leva-se em consideração o valor de uma vida estatística. (Interessante, não? Que mundo, minha gente!)
+## População x Amostra
+Amostra: conjunto de observações extraído de uma população.
+> Estatística: medida numérica que descreve uma característica da amostra.
 
-#### Viés de publicação
-Há um viés de publicação nos periódicos profissionais, a tendência de se publicarem resultados positivos com muito mais frequência que os negativos.
-> Kay Dickersin e Drummond Rennie: "o resultado de não se saber quem fez o quê (testes clínicos) é a perda e distorção da evidência, desperdício e duplicação de testes, incapacidade das agências de financiamento de se planejarem, e um sistema caótico do qual apenas certos patrocinadores podem se beneficiar e que é, invariavelmente, contra o interesse daqueles que se ofereceram para participar do teste e dos pacientes em geral."
+População (finita ou infinita): conjunto de todos os possíveis valores de uma variável.
+> Parâmetro: medida numérica que descreve uma característica da população.
 
-### Análise
-A análise deve começar com gráficos e exploração dos dados: bom senso e atenção redobrada a métodos estatísticos sólidos.
+## Variável
+É a característica ou propriedade da população que está sendo medida, o conjunto de resultados possíveis de um fenômeno.
+> As hipóteses de pesquisa são formuladas para variáveis.
 
-### Conclusão
-*Significância estatística*: resultado de ocorrência muito improvável por puro acaso.
-> Exemplo: nascimento de 98 meninas em 100 partos realizados é estatisticamente significativo porque esse é um evento tão extremo que não é provável de ser resultado de acaso aleatório.
+![image](https://user-images.githubusercontent.com/39681960/204415919-da19e87a-6435-45e3-ad1f-77bb869f1502.png)
 
-- Significância Estatística x Significância Prática
-Teste de perda de peso (Atkins): 40 participantes perderam 2,1kg após um ano. 
-> A perda média de 2,1kg/ano é estatisticamente significativa, ou seja, com base em critérios estatísticos a dieta parece ser eficaz. </br>
-> Usando o bom senso, perder 2,1kg/ano é algo insignificante para quem deseja perder peso, ou seja, não tem significância prática.
+## Tipos de pesquisa estatística
+- de levantamento: características de interesse de uma população são levantadas, sem manipulação.
+> População: conjunto de elementos com pelo menos uma característica em comum observável.
 
-#### Detecção de dados fabricados
-Através da violação da lei de Benford: para muitas coleções de dados, os dígitos líderes não são uniformemente distribuídos. 
-> Dígitos líderes: 1, 2, 3, ..., 9 ocorrem a taxas de 30%, 18%, 12%, 10%, 8%, 7%, 6%, 5% e 5%.
+- experimental: grupos de indivíduos, animais ou objetos são manipulados para se avaliar o efeito de diferentes tratamentos.
 
-- Armadilhas:
-  - Conclusões enganadoras: ao se chegar a conclusões após análise estatística, devem ser feitas afirmações claras. Evitar, cuidadosamente, fazer afirmações que não se justifiquem pela análise estatística.
+## Censo x Amostragem
+Censo: todos.
+> Análise exploratória dos dados
 
-    *Correlação*: associação entre duas variáveis. </br>
-    *Causalidade*: afirmativas sobre causalidade só podem ser justificadas por evidências físicas, não por análise estatística.
-    > Correlação não implica causação.
+Amostra: parte.
+> Análise exploratória dos dados + Inferência estatística
 
-  - Resultados informados: pergunte às pessoas quanto elas pesam e, muito provavelmente, você receberá as medidas *desejadas*, não as medidas reais. 
-  > Medidas precisam ser coletadas através de um instrumento que faça essa medição.
-  
-  - Pequenas amostras: amostras muito pequenas não geram conclusões confiáveis.
-  - Questões direcionadas: intencionalmente fraseadas a fim de induzir a uma resposta desejada.
-  - Ordem das Questões: 
-  > Exemplo: Você diria que o tráfego contribui mais ou menos do que a indústria para a poluição do ar? (45% dizem o tráfego, 27% a indústria)
-  Você diria que a indústria contribui mais ou menos do que o tráfego para a poluição do ar? (24% dizem o tráfego, 57% a indústria)
-  - Não resposta: alguém se recusa a responder a uma questão de pesquisa ou não está disponível.
-  - Dados ausentes: o Censo americano tem problemas de ausências, na maior parte, com pessoas sem casa (onde encontrá-las, afinal?) ou de baixa renda.
-  - Números precisos: não são números exatos. O número preciso é uma estimativa.
-  - Porcentagens: enganosas ou não muito claras.
+## Passos de um projeto de pesquisa
+1. Seleção do tópico ou problema para investigação: bem determinado e específico, exequível e adequado.
+2. Levantamento de dados: fontes primárias(dados históricos, arquivos oficiais), fontes secundárias(imprensa e obras literárias)
+3. Definição e diferenciação do problema: define e identifica o assunto em estudo
+4. Definição dos termos: substituição de termos que possam causar confusão à pesquisa
+5. Levantamento de hipóteses de trabalho: suposição, formulação provisória.
+6. Indicação de variáveis: coleta, sistematização e classificação dos dados.
+> Todas as variáveis que possa interferir no objeto em estudo devem ser levadas em consideração e serem devidamente controladas.
+7. Delimitação da pesquisa: decidir por amostra ou população, por exemplo.
+8. Amostragem: parcela convenientemente selecionada. 
+9. Seleção de métodos e técnicas
+11. Organização do instrumental de pesquisa: indivíduos, arquivos etc
+12. Teste de instrumentos e procedimentos: testar antes de aplicar definitivamente.
 
-Sugestão de leitura: 
-- How to lie with Statistics, de Darrel Huff
-- The Figure Finaglers, de Robert Reichards
-- Tainted Truth, de Cynthia Crossen
-      
-### Pensamento Estatístico
-Pode ser visto como a habilidade de enxergar o quadro geral, considerar fatores relevantes, como contexto, fontes de dados e método de amostragem, e de formular conclusões e identificar implicações práticas. Envolve pensamento crítico e a habilidade de dar sentido aos resultados. Deve envolver a determinação da significância estatística e da significância prática dos resultados.
-      
-      
-      
-      
-      
-      
-      
-      
+## Etapas do Mètodo Estatístico
+1. Definição do problema
+2. Planejamento: quais dados? censitário ou amostragem? cronograma? custos?
+3. Coleta de Dados: registro sistemático dos dados, com um objetivo determinado.
+4. Apuração dos Dados: condensação e tabulação de dados
+5. Apresentação dos Dados: tabular e gráfica.
+6. Análise e Interpretação dos Dados: cálculo de medidas e coeficientes para descrever o fenômeno estudado (estatística descritiva).
+7. Apresentação do Relatório da Pesquisa: desde o planejamento até a conclusão.
+
+## Distribuição de Frequências
+Sumário tabular dos dados que mostra o número de itens (Frequência) em cada uma das categorias ou classes não sobrepostas.
+- Dados devem ser ordenados (dados elaborados)
+- Frequência absoluta (fi): número de vezes que o valor da variável ocorreu na amostra
+- Frequência relativa (fr): frequência absoluta dividida pelo número total de observações
+- Frequência percentual (fp): fr * 100
+- Frequência acumulada: soma das frequências absolutas até a classe em questão
 
 
 
@@ -105,7 +82,5 @@ Pode ser visto como a habilidade de enxergar o quadro geral, considerar fatores 
 
 
 
-
-
-Referência Bibliográfica:
-TRIOLA, F., M. Introdução à Estatística, 12ª edição, LTC.
+Referências:
+Podcast Partiu Pensar (professor Clóvis de Barros Filho) - Episódio: Conjecturas e Refutações.
